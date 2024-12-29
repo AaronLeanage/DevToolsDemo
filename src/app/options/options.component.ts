@@ -10,7 +10,7 @@ export class OptionsComponent {
   labelText = '';
 
   ngOnInit(): void {
-    const superAdmin = false;
+    const superAdmin = true; // for demo purposes
 
     if (superAdmin) {
       DisableDevtool({
